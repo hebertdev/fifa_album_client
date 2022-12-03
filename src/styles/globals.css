@@ -1,0 +1,76 @@
+@import './editProfile.css';
+
+@font-face {
+  font-family: "QuagentRegular";
+  src: url('./fonts/Quagent-Regular.ttf') format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "QatarHeavy";
+  src: url('./fonts/Qatar2022-Heavy.woff2') format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+:root{
+  --color:#8d0930;
+  --color2:#330010;
+  --colorqatar:#57031c;
+}
+
+
+*::-webkit-scrollbar {
+  width: 7px; /* Tamaño del scroll en vertical */
+  height: 7px; /* Tamaño del scroll en horizontal */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #ae0d2f;
+}
+
+
+table{
+  border: 1px solid #ae0d2f;
+  width: 100%;
+}
+
+thead{
+  border: 1px solid #ae0d2f;
+}
+
+th{
+  border: 1px solid #ae0d2f;
+}
+
+td{
+  border: 1px solid #ae0d2f;
+}
+
+
+ul,
+li {
+  list-style: none;
+}
