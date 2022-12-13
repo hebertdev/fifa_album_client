@@ -1,5 +1,8 @@
 import { useRouter } from "next/router";
 
+//next modified
+import RouterLink from "components/Next/Link";
+
 //material UI
 import { Container, Typography, Box, Divider, IconButton } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -41,13 +44,6 @@ export default function Footer() {
             <br />
             <Typography
               variant="caption"
-              sx={{ fontWeight: 600, color: "inherit" }}
-            >
-              Esta aplicación es un proyecto personal, no tiene fines de lucro.
-            </Typography>
-            <br />
-            <Typography
-              variant="caption"
               sx={{
                 fontWeight: 600,
                 color: "inherit",
@@ -56,6 +52,7 @@ export default function Footer() {
               component="a"
               href="https://www.codealo.dev/concurso-hackandgol"
               target="_blank"
+              rel="noreferrer"
             >
               Con esta aplicación estoy participando en el concurso de
               programación de codealo.dev y donweb cloud.
@@ -91,9 +88,8 @@ export default function Footer() {
                 color: "inherit",
                 textDecoration: "underline",
               }}
-              component="a"
-              href="https://www.codealo.dev/concurso-hackandgol"
-              target="_blank"
+              component={RouterLink}
+              href="/about/thisproject"
             >
               Más información sobre los recursos utilizados en este proyecto
               <br />
@@ -107,6 +103,7 @@ export default function Footer() {
               component="a"
               href="https://hebertdev.netlify.app"
               target="_blank"
+              rel="noreferrer"
             >
               <LanguageIcon color="primary" />
             </IconButton>
@@ -114,6 +111,7 @@ export default function Footer() {
               component="a"
               href="https://github.com/hebertdev"
               target="_blank"
+              rel="noreferrer"
             >
               <GitHubIcon color="primary" />
             </IconButton>
@@ -121,6 +119,7 @@ export default function Footer() {
               component="a"
               href="https://www.linkedin.com/in/hebertdev/"
               target="_blank"
+              rel="noreferrer"
             >
               <LinkedInIcon color="primary" />
             </IconButton>
@@ -128,6 +127,7 @@ export default function Footer() {
               component="a"
               href="https://www.instagram.com/hebertdev1/"
               target="_blank"
+              rel="noreferrer"
             >
               <InstagramIcon color="primary" />
             </IconButton>
@@ -135,6 +135,7 @@ export default function Footer() {
               component="a"
               href="https://www.youtube.com/@hebertdev"
               target="_blank"
+              rel="noreferrer"
             >
               <YouTubeIcon color="primary" />
             </IconButton>

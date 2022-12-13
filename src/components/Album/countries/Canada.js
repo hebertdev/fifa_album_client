@@ -11,8 +11,8 @@ import { SheetLeft, SheetRight } from "../Sheets";
 import { Box, Grid, CardActionArea, Dialog } from "@mui/material";
 
 //assets
-import canada_wallpaper_right from "assets/album/dinamarca_right.png";
-import canada_wallpaper_left from "assets/album/dinamarca_left.png";
+import canada_wallpaper_right from "assets/album/dinamarca-right.webp";
+import canada_wallpaper_left from "assets/album/dinamarca-left.webp";
 import canada_flag from "assets/album/countries/CAN.png";
 
 export const CanadaLeft = forwardRef((props, ref) => {
@@ -20,10 +20,12 @@ export const CanadaLeft = forwardRef((props, ref) => {
     <div ref={ref}>
       <SheetLeft
         country_name={"Canadá"}
+        color="#a32b2e"
         flag={canada_flag.src}
         wallpaper={canada_wallpaper_right.src}
         team_name={"Asociación Canadiense de Fútbol"}
         default_cromos={canada_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );
@@ -45,8 +47,10 @@ export const CanadaRight = forwardRef((props, ref) => {
       <SheetRight
         group={group}
         country_name={"Canadá"}
+        color="#a32b2e"
         wallpaper={canada_wallpaper_left.src}
         default_cromos={canada_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );

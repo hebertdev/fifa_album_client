@@ -7,7 +7,7 @@ const types = {
 export const serbia = {
   name: "serbia",
   logo: {
-    code: "102030",
+    code: "RS00",
     type: types[1],
     name: "Serbia Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const serbia = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "RS01",
         type: types[2],
         name: "Dragan Stojković",
         full_name: "Dragan Stojković",
         active: true,
       },
       {
-        code: "102032",
+        code: "RS02",
         type: types[3],
         name: "Predrag Rajković",
         full_name: "Predrag Rajković",
         active: true,
       },
       {
-        code: "102033",
+        code: "RS03",
         type: types[3],
         name: "Nikola Milenković",
         full_name: "Nikola Milenković",
         active: true,
       },
       {
-        code: "102034",
+        code: "RS04",
         type: types[3],
         name: "Strahinja Pavlović",
         full_name: "Strahinja Pavlović",
         active: true,
       },
       {
-        code: "102035",
+        code: "RS05",
         type: types[3],
         name: "Miloš Veljković",
         full_name: "Miloš Veljković",
         active: true,
       },
       {
-        code: "102036",
+        code: "RS06",
         type: types[3],
         name: "Nemanja Gudelj",
         full_name: "Nemanja Gudelj",
@@ -60,42 +60,42 @@ export const serbia = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "RS07",
         type: types[3],
         name: "Filip Kostić",
         full_name: "Filip Kostić",
         active: true,
       },
       {
-        code: "102038",
+        code: "RS08",
         type: types[3],
         name: "Darko Lazović",
         full_name: "Darko Lazović",
         active: true,
       },
       {
-        code: "102039",
+        code: "RS09",
         type: types[3],
         name: "Sergej Milinković-Savić",
         full_name: "Sergej Milinković-Savić",
         active: true,
       },
       {
-        code: "102040",
+        code: "RS10",
         type: types[3],
         name: "Aleksandar Mitrović",
         full_name: "Aleksandar Mitrović",
         active: true,
       },
       {
-        code: "102041",
+        code: "RS11",
         type: types[3],
         name: "Dušan Tadić",
         full_name: "Dušan Tadić",
         active: true,
       },
       {
-        code: "102042",
+        code: "RS12",
         type: types[3],
         name: "Dušan Vlahović",
         full_name: "Dušan Vlahović",

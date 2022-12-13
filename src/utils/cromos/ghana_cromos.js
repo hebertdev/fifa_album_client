@@ -7,7 +7,7 @@ const types = {
 export const ghana = {
   name: "ghana",
   logo: {
-    code: "102030",
+    code: "GH00",
     type: types[1],
     name: "Ghana Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const ghana = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "GH01",
         type: types[2],
         name: "Otto Addo",
         full_name: "Otto Addo",
         active: true,
       },
       {
-        code: "102032",
+        code: "GH02",
         type: types[3],
         name: "Joe Wollacott",
         full_name: "Joe Wollacott",
         active: true,
       },
       {
-        code: "102033",
+        code: "GH03",
         type: types[3],
         name: "Daniel Amartey",
         full_name: "Daniel Amartey",
         active: true,
       },
       {
-        code: "102034",
+        code: "GH04",
         type: types[3],
         name: "Abdul Rahman",
         full_name: "Abdul Rahman Baba",
         active: true,
       },
       {
-        code: "102035",
+        code: "GH05",
         type: types[3],
         name: "Alexander Djiku",
         full_name: "Alexander Kwabena Baidoo Djiku",
         active: true,
       },
       {
-        code: "102036",
+        code: "GH06",
         type: types[3],
         name: "Andy Yiadom",
         full_name: "Andrew Kyere Yiadom",
@@ -60,42 +60,42 @@ export const ghana = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "GH07",
         type: types[3],
         name: "Iddrisu Baba",
         full_name: "Iddrisu Baba Mohamed",
         active: true,
       },
       {
-        code: "102038",
+        code: "GH08",
         type: types[3],
         name: "Mohammed Kudus",
         full_name: "Mohammed Kudus",
         active: true,
       },
       {
-        code: "102039",
+        code: "GH09",
         type: types[3],
         name: "Thomas Partey",
         full_name: "Thomas Teye Partey",
         active: true,
       },
       {
-        code: "102040",
+        code: "GH10",
         type: types[3],
         name: "André Ayew",
         full_name: "André Ayew",
         active: true,
       },
       {
-        code: "102041",
+        code: "GH11",
         type: types[3],
         name: "Jordan Ayew",
         full_name: "Jordan Ayew",
         active: true,
       },
       {
-        code: "102042",
+        code: "GH12",
         type: types[3],
         name: "Kamaldeen Sulemana",
         full_name: "Kamaldeen Sulemana",

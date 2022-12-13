@@ -11,8 +11,8 @@ import { SheetLeft, SheetRight } from "../Sheets";
 import { Box, Grid, CardActionArea, Dialog } from "@mui/material";
 
 //assets
-import camerun_wallpaper_right from "assets/album/senegal_right.png";
-import camerun_wallpaper_left from "assets/album/senegal_left.png";
+import camerun_wallpaper_right from "assets/album/senegal-right.webp";
+import camerun_wallpaper_left from "assets/album/senegal-left.webp";
 import camerun_flag from "assets/album/countries/CMR.png";
 
 export const CamerunLeft = forwardRef((props, ref) => {
@@ -20,10 +20,12 @@ export const CamerunLeft = forwardRef((props, ref) => {
     <div ref={ref}>
       <SheetLeft
         country_name={"Camerún"}
+        color="#6bbb76"
         flag={camerun_flag.src}
         wallpaper={camerun_wallpaper_right.src}
         team_name={"Federación Camerunesa de Fútbol"}
         default_cromos={camerun_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );
@@ -45,8 +47,10 @@ export const CamerunRight = forwardRef((props, ref) => {
       <SheetRight
         group={group}
         country_name={"Camerún"}
+        color="#6bbb76"
         wallpaper={camerun_wallpaper_left.src}
         default_cromos={camerun_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );

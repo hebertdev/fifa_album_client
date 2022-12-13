@@ -13,8 +13,8 @@ import { senegal as senegal_cromos } from "utils/cromos/senegal_cromos";
 import { Box, Grid, CardActionArea, Dialog } from "@mui/material";
 
 //assets
-import senegal_wallpaper_right from "assets/album/senegal_right.png";
-import senegal_wallpaper_left from "assets/album/senegal_left.png";
+import senegal_wallpaper_right from "assets/album/senegal-right.webp";
+import senegal_wallpaper_left from "assets/album/senegal-left.webp";
 import senegal_flag from "assets/album/countries/SEN.png";
 
 export const SenegalLeft = forwardRef((props, ref) => {
@@ -22,10 +22,12 @@ export const SenegalLeft = forwardRef((props, ref) => {
     <div ref={ref}>
       <SheetLeft
         country_name={"Senegal"}
+        color="#64b67b"
         flag={senegal_flag.src}
         wallpaper={senegal_wallpaper_right.src}
         team_name={"Federación Senegalesa de Fútbol"}
         default_cromos={senegal_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );
@@ -47,8 +49,10 @@ export const SenegalRight = forwardRef((props, ref) => {
       <SheetRight
         group={group}
         country_name={"Senegal"}
+        color="#64b67b"
         wallpaper={senegal_wallpaper_left.src}
         default_cromos={senegal_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );

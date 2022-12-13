@@ -11,8 +11,8 @@ import { SheetLeft, SheetRight } from "../Sheets";
 import { Box, Grid, CardActionArea, Dialog } from "@mui/material";
 
 //assets
-import suiza_wallpaper_right from "assets/album/polonia_right.png";
-import suiza_wallpaper_left from "assets/album/polonia_left.png";
+import suiza_wallpaper_right from "assets/album/polonia-right.webp";
+import suiza_wallpaper_left from "assets/album/polonia-left.webp";
 import suiza_flag from "assets/album/countries/CHE.png";
 
 export const SuizaLeft = forwardRef((props, ref) => {
@@ -20,10 +20,12 @@ export const SuizaLeft = forwardRef((props, ref) => {
     <div ref={ref}>
       <SheetLeft
         country_name={"suiza"}
+        color="red"
         flag={suiza_flag.src}
         wallpaper={suiza_wallpaper_right.src}
         team_name={"Asociación Suiza de Fútbol"}
         default_cromos={suiza_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );
@@ -45,8 +47,10 @@ export const SuizaRight = forwardRef((props, ref) => {
       <SheetRight
         group={group}
         country_name={"Suiza"}
+        color="red"
         wallpaper={suiza_wallpaper_left.src}
         default_cromos={suiza_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );

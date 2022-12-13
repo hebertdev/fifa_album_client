@@ -7,7 +7,7 @@ const types = {
 export const spain = {
   name: "españa",
   logo: {
-    code: "102030",
+    code: "ES00",
     type: types[1],
     name: "España Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const spain = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "ES01",
         type: types[2],
         name: "Luis Enrique",
         full_name: "Luis Enrique Martínez García",
         active: true,
       },
       {
-        code: "102032",
+        code: "ES02",
         type: types[3],
         name: "Unai Simón",
         full_name: "Unai Simón Mendibil",
         active: true,
       },
       {
-        code: "102033",
+        code: "ES03",
         type: types[3],
         name: "César Azpilicueta",
         full_name: "César Azpilicueta Tanco",
         active: true,
       },
       {
-        code: "102034",
+        code: "ES04",
         type: types[3],
         name: "Eric García",
         full_name: "Eric García Martret",
         active: true,
       },
       {
-        code: "102035",
+        code: "ES05",
         type: types[3],
         name: "Jordi Alba",
         full_name: "Jorge Alba Ramos",
         active: true,
       },
       {
-        code: "102036",
+        code: "ES06",
         type: types[3],
         name: "Aymeric Laporte",
         full_name: "Aymeric Jean Louis Gerard Alphonse Laporte",
@@ -60,42 +60,42 @@ export const spain = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "ES07",
         type: types[3],
         name: "Gavi",
         full_name: "Pablo Martín Páez Gavira",
         active: true,
       },
       {
-        code: "102038",
+        code: "ES08",
         type: types[3],
         name: "Pedri",
         full_name: "Pedro González López",
         active: true,
       },
       {
-        code: "102039",
+        code: "ES09",
         type: types[3],
         name: "Sergio Busquets",
         full_name: "Sergio Busquets Burgos",
         active: true,
       },
       {
-        code: "102040",
+        code: "ES10",
         type: types[3],
         name: "Dani Olmo",
         full_name: "Daniel Olmo Carvajal",
         active: true,
       },
       {
-        code: "102041",
+        code: "ES11",
         type: types[3],
         name: "Ferran Torres",
         full_name: "Ferran Torres García",
         active: true,
       },
       {
-        code: "102042",
+        code: "ES12",
         type: types[3],
         name: "Álvaro Morata",
         full_name: "Álvaro Morata",

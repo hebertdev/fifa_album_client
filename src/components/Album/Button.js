@@ -115,6 +115,18 @@ export function ButtonAlbum({
     }
   }, [profileDetail, router.query.album]);
 
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      setOpen(false);
+    });
+
+    return () => {
+      window.removeEventListener("resize", () => {
+        setOpen(false);
+      });
+    };
+  }, []);
+
   return (
     <>
       <Button
@@ -275,68 +287,378 @@ function ModalAlbum({
                 user_cromos={data}
                 alertSms={alertSms}
               />
-              <EcuadorLeft number={4} name={"Ecuador"} />
-              <EcuadorRight number={5} name={"Ecuador"} />
-              <SenegalLeft number={6} name={"Senegal"} />
-              <SenegalRight number={7} name={"Senegal"} />
-              <NetherlandsLeft number={8} name={"Países bajos"} />
-              <NetherlandsRight number={9} name={"Países bajos"} />
-              <InglaterraLeft number={10} name={"Inglaterra"} />
-              <InglaterraRight number={11} name={"Inglaterra"} />
-              <IranLeft number={12} name={"Irán"} />
-              <IranRight number={13} name={"Irán"} />
-              <UsaLeft number={14} name={"Estados Unidos"} />
-              <UsaRight number={15} name={"Estados Unidos"} />
-              <GalesLeft number={16} name={"Gales"} />
-              <GalesRight number={17} name={"Gales"} />
-              <ArgentinaLeft number={18} name={"Argentina"} />
-              <ArgentinaRight number={19} name={"Argentina"} />
-              <ArabiaSauditaLeft number={20} name={"Arabia Saudita"} />
-              <ArabiaSauditaRight number={21} name={"Arabia Saudita"} />
-              <MexicoLeft number={22} name={"México"} />
-              <MexicoRight number={23} name={"México"} />
-              <PoloniaLeft number={24} name={"Polonia"} />
-              <PoloniaRight number={25} name={"Polonia"} />
-              <FranciaLeft number={26} name={"Francia"} />
-              <FranciaRight number={27} name={"Francia"} />
-              <AustraliaLeft number={28} name={"Australia"} />
-              <AustraliaRight number={29} name={"Australia"} />
-              <DinamarcaLeft number={30} name={"Dinamarca"} />
-              <DinamarcaRight number={31} name={"Dinamarca"} />
-              <TunezLeft number={32} name={"Túnez"} />
-              <TunezRight number={33} name={"Túnez"} />
-              <SpainLeft number={34} name={"España"} />
-              <SpainRight number={35} name={"España"} />
-              <CostaRicaLeft number={36} name={"Costa Rica"} />
-              <CostaRicaRight number={37} name={"Costa Rica"} />
-              <AlemaniaLeft number={38} name={"Alemania"} />
-              <AlemaniaRight number={39} name={"Alemania"} />
-              <JaponLeft number={40} name={"Japón"} />
-              <JaponRight number={41} name={"Japón"} />
-              <BelgicaLeft number={42} name={"Bélgica"} />
-              <BelgicaRight number={43} name={"Bélgica"} />
-              <CanadaLeft number={44} name={"Canada"} />
-              <CanadaRight number={45} name={"Canada"} />
-              <MarruecosLeft number={46} name={"Marruecos"} />
-              <MarruecosRight number={47} name={"Marruecos"} />
-              <CroaciaLeft number={48} name={"Croacia"} />
-              <CroaciaRight number={49} name={"Croacia"} />
-              <BrasilLeft number={50} name={"Brasil"} />
-              <BrasilRight number={51} name={"Brasil"} />
-              <SerbiaLeft number={52} name={"Serbia"} />
-              <SerbiaRight number={53} name={"Serbia"} />
-              <SuizaLeft number={54} name={"Suiza"} />
-              <SuizaRight number={55} name={"Suiza"} />
-              <CamerunLeft number={56} name={"Camerún"} />
-              <CamerunRight number={57} name={"Camerún"} />
-              <PortugalLeft number={58} name={"Portugal"} />
-              <PortugalRight number={59} name={"Portugal"} />
-              <GhanaLeft number={60} name={"Ghana"} />
-              <GhanaRight number={61} name={"Ghana"} />
-              <UruguayLeft number={62} name={"Uruguay"} />
-              <UruguayRight number={63} name={"Uruguay"} />
-              <KoreaLeft number={64} name={"República de Korea"} />
-              <KoreaRight number={65} name={"República de Korea"} />
+              <EcuadorLeft
+                number={4}
+                name={"Ecuador"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <EcuadorRight
+                number={5}
+                name={"Ecuador"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <SenegalLeft
+                number={6}
+                name={"Senegal"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <SenegalRight
+                number={7}
+                name={"Senegal"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <NetherlandsLeft
+                number={8}
+                name={"Países bajos"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <NetherlandsRight
+                number={9}
+                name={"Países bajos"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <InglaterraLeft
+                number={10}
+                name={"Inglaterra"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <InglaterraRight
+                number={11}
+                name={"Inglaterra"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <IranLeft
+                number={12}
+                name={"Irán"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <IranRight
+                number={13}
+                name={"Irán"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <UsaLeft
+                number={14}
+                name={"Estados Unidos"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <UsaRight
+                number={15}
+                name={"Estados Unidos"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <GalesLeft
+                number={16}
+                name={"Gales"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <GalesRight
+                number={17}
+                name={"Gales"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <ArgentinaLeft
+                number={18}
+                name={"Argentina"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <ArgentinaRight
+                number={19}
+                name={"Argentina"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <ArabiaSauditaLeft
+                number={20}
+                name={"Arabia Saudita"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <ArabiaSauditaRight
+                number={21}
+                name={"Arabia Saudita"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <MexicoLeft
+                number={22}
+                name={"México"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <MexicoRight
+                number={23}
+                name={"México"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <PoloniaLeft
+                number={24}
+                name={"Polonia"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <PoloniaRight
+                number={25}
+                name={"Polonia"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <FranciaLeft
+                number={26}
+                name={"Francia"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <FranciaRight
+                number={27}
+                name={"Francia"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <AustraliaLeft
+                number={28}
+                name={"Australia"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <AustraliaRight
+                number={29}
+                name={"Australia"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <DinamarcaLeft
+                number={30}
+                name={"Dinamarca"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <DinamarcaRight
+                number={31}
+                name={"Dinamarca"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <TunezLeft
+                number={32}
+                name={"Túnez"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <TunezRight
+                number={33}
+                name={"Túnez"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <SpainLeft
+                number={34}
+                name={"España"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <SpainRight
+                number={35}
+                name={"España"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <CostaRicaLeft
+                number={36}
+                name={"Costa Rica"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <CostaRicaRight
+                number={37}
+                name={"Costa Rica"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <AlemaniaLeft
+                number={38}
+                name={"Alemania"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <AlemaniaRight
+                number={39}
+                name={"Alemania"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <JaponLeft
+                number={40}
+                name={"Japón"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <JaponRight
+                number={41}
+                name={"Japón"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <BelgicaLeft
+                number={42}
+                name={"Bélgica"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <BelgicaRight
+                number={43}
+                name={"Bélgica"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <CanadaLeft
+                number={44}
+                name={"Canada"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <CanadaRight
+                number={45}
+                name={"Canada"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <MarruecosLeft
+                number={46}
+                name={"Marruecos"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <MarruecosRight
+                number={47}
+                name={"Marruecos"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <CroaciaLeft
+                number={48}
+                name={"Croacia"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <CroaciaRight
+                number={49}
+                name={"Croacia"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <BrasilLeft
+                number={50}
+                name={"Brasil"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <BrasilRight
+                number={51}
+                name={"Brasil"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <SerbiaLeft
+                number={52}
+                name={"Serbia"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <SerbiaRight
+                number={53}
+                name={"Serbia"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <SuizaLeft
+                number={54}
+                name={"Suiza"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <SuizaRight
+                number={55}
+                name={"Suiza"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <CamerunLeft
+                number={56}
+                name={"Camerún"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <CamerunRight
+                number={57}
+                name={"Camerún"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <PortugalLeft
+                number={58}
+                name={"Portugal"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <PortugalRight
+                number={59}
+                name={"Portugal"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <GhanaLeft
+                number={60}
+                name={"Ghana"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <GhanaRight
+                number={61}
+                name={"Ghana"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <UruguayLeft
+                number={62}
+                name={"Uruguay"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <UruguayRight
+                number={63}
+                name={"Uruguay"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <KoreaLeft
+                number={64}
+                name={"República de Korea"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
+              <KoreaRight
+                number={65}
+                name={"República de Korea"}
+                user_cromos={data}
+                alertSms={alertSms}
+              />
               <AlbumClosing number={66} name={"FIN"} />
             </HTMLFlipBook>
           </Box>
@@ -393,7 +715,12 @@ function ModalAlbum({
                     label="Ir a"
                     onChange={handlePushPage}
                     size="small"
-                    sx={{ color: "inherit" }}
+                    sx={{
+                      color: "inherit",
+                      "@media (max-width: 600px)": {
+                        maxWidth: "60px",
+                      },
+                    }}
                   >
                     <MenuItem value={null}>None</MenuItem>
                     {flipBook?.current

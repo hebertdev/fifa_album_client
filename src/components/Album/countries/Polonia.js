@@ -11,8 +11,8 @@ import { SheetLeft, SheetRight } from "../Sheets";
 import { Box, Grid, CardActionArea, Dialog } from "@mui/material";
 
 //assets
-import polonia_wallpaper_right from "assets/album/polonia_right.png";
-import polonia_wallpaper_left from "assets/album/polonia_left.png";
+import polonia_wallpaper_right from "assets/album/polonia-right.webp";
+import polonia_wallpaper_left from "assets/album/polonia-left.webp";
 import polonia_flag from "assets/album/countries/POL.png";
 
 export const PoloniaLeft = forwardRef((props, ref) => {
@@ -20,10 +20,12 @@ export const PoloniaLeft = forwardRef((props, ref) => {
     <div ref={ref}>
       <SheetLeft
         country_name={"Polonia"}
+        color="#bc2921"
         flag={polonia_flag.src}
         wallpaper={polonia_wallpaper_right.src}
         team_name={"Asociación Polaca de Fútbol "}
         default_cromos={polonia_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );
@@ -45,8 +47,10 @@ export const PoloniaRight = forwardRef((props, ref) => {
       <SheetRight
         group={group}
         country_name={"polonia"}
+        color="#bc2921"
         wallpaper={polonia_wallpaper_left.src}
         default_cromos={polonia_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );

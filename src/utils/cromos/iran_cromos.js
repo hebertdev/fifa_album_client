@@ -7,7 +7,7 @@ const types = {
 export const iran = {
   name: "iran",
   logo: {
-    code: "102030",
+    code: "IR00",
     type: types[1],
     name: "Irán Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const iran = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "IR01",
         type: types[2],
         name: "Carlos Queiroz",
         full_name: "Carlos Manuel Brito Leal Queiroz",
         active: true,
       },
       {
-        code: "102032",
+        code: "IR02",
         type: types[3],
         name: "Alireza Beiranvand",
         full_name: "Alireza Safar Beiranvand",
         active: true,
       },
       {
-        code: "102033",
+        code: "IR03",
         type: types[3],
         name: "Hossein Kanaani",
         full_name: "Hossein Kanaanizadegan",
         active: true,
       },
       {
-        code: "102034",
+        code: "IR04",
         type: types[3],
         name: "Shoja Khalilzadeh",
         full_name: "Shoja Khalilzadeh",
         active: true,
       },
       {
-        code: "102035",
+        code: "IR05",
         type: types[3],
         name: "Milad Mohammadi",
         full_name: "Milad Mohammadi",
         active: true,
       },
       {
-        code: "102036",
+        code: "IR06",
         type: types[3],
         name: "Omid Noorafkan",
         full_name: "Omid Noorafkan",
@@ -60,42 +60,42 @@ export const iran = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "IR07",
         type: types[3],
         name: "Saeid Ezatolahi",
         full_name: "Saeid Ezatolahi",
         active: true,
       },
       {
-        code: "102038",
+        code: "IR08",
         type: types[3],
         name: "Ali Gholizadeh",
         full_name: "Ali Gholizadeh",
         active: true,
       },
       {
-        code: "102039",
+        code: "IR09",
         type: types[3],
         name: "Alireza Jahanbakhsh",
         full_name: "Alireza Jahanbakhsh Jirandeh",
         active: true,
       },
       {
-        code: "102040",
+        code: "IR10",
         type: types[3],
         name: "Ahmad Nourollahi",
         full_name: "Ahmad Nourollahi",
         active: true,
       },
       {
-        code: "102041",
+        code: "IR11",
         type: types[3],
         name: "Sardar Azmoun",
         full_name: "Sardar Azmoun",
         active: true,
       },
       {
-        code: "102042",
+        code: "IR12",
         type: types[3],
         name: "Mehdi Taremi",
         full_name: "Mehdi Taremi",

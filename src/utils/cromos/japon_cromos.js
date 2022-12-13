@@ -7,7 +7,7 @@ const types = {
 export const japon = {
   name: "japón",
   logo: {
-    code: "102030",
+    code: "JP00",
     type: types[1],
     name: "Japón Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const japon = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "JP01",
         type: types[2],
         name: "Hajime Moriyasu",
         full_name: "Hajime Moriyasu",
         active: true,
       },
       {
-        code: "102032",
+        code: "JP02",
         type: types[3],
         name: "Shūichi Gonda",
         full_name: "Shūichi Gonda",
         active: true,
       },
       {
-        code: "102033",
+        code: "JP03",
         type: types[3],
         name: "Yūto Nagatomo",
         full_name: "Yūto Nagatomo",
         active: true,
       },
       {
-        code: "102034",
+        code: "JP04",
         type: types[3],
         name: "Takehiro Tomiyasu",
         full_name: "Takehiro Tomiyasu",
         active: true,
       },
       {
-        code: "102035",
+        code: "JP05",
         type: types[3],
         name: "Miki Yamane",
         full_name: "Miki Yamane",
         active: true,
       },
       {
-        code: "102036",
+        code: "JP06",
         type: types[3],
         name: "Maya Yoshida",
         full_name: "Maya Yoshida",
@@ -60,42 +60,42 @@ export const japon = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "JP07",
         type: types[3],
         name: "Wataru Endō",
         full_name: "Wataru Endō",
         active: true,
       },
       {
-        code: "102038",
+        code: "JP08",
         type: types[3],
         name: "Gaku Shibasaki",
         full_name: "Gaku Shibasaki",
         active: true,
       },
       {
-        code: "102039",
+        code: "JP09",
         type: types[3],
         name: "Ao Tanaka",
         full_name: "Ao Tanaka",
         active: true,
       },
       {
-        code: "102040",
+        code: "JP10",
         type: types[3],
         name: "Junya Ito",
         full_name: "Junya Ito",
         active: true,
       },
       {
-        code: "102041",
+        code: "JP11",
         type: types[3],
         name: "Takumi Minamino",
         full_name: "Takumi Minamino",
         active: true,
       },
       {
-        code: "102042",
+        code: "JP12",
         type: types[3],
         name: "Yuya Osako",
         full_name: "Yuya Osako",

@@ -7,7 +7,7 @@ const types = {
 export const canada = {
   name: "canada",
   logo: {
-    code: "102030",
+    code: "CA00",
     type: types[1],
     name: "Qanada Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const canada = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "CA01",
         type: types[2],
         name: "John Herdman",
         full_name: "John Herdman",
         active: true,
       },
       {
-        code: "102032",
+        code: "CA02",
         type: types[3],
         name: "Milan Borjan",
         full_name: "Milan Borjan",
         active: true,
       },
       {
-        code: "102033",
+        code: "CA03",
         type: types[3],
         name: "Alistair Johnston",
         full_name: "Alistair Johnston",
         active: true,
       },
       {
-        code: "102034",
+        code: "CA04",
         type: types[3],
         name: "Richie Laryea",
         full_name: "Richmond Laryea",
         active: true,
       },
       {
-        code: "102035",
+        code: "CA05",
         type: types[3],
         name: "Kamal Miller",
         full_name: "Kamal Anthony Miller",
         active: true,
       },
       {
-        code: "102036",
+        code: "CA06",
         type: types[3],
         name: "Steven Vitória",
         full_name: "Steven Vitória",
@@ -60,42 +60,42 @@ export const canada = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "CA07",
         type: types[3],
         name: "Tajon Buchanan",
         full_name: "Tajon Buchanan",
         active: true,
       },
       {
-        code: "102038",
+        code: "CA08",
         type: types[3],
         name: "Alphonso Davies",
         full_name: "Alphonso Davies",
         active: true,
       },
       {
-        code: "102039",
+        code: "CA09",
         type: types[3],
         name: "Stephen Eustáquio",
         full_name: "Stephen Antunes Eustáquio",
         active: true,
       },
       {
-        code: "102040",
+        code: "CA10",
         type: types[3],
         name: "Atiba Hutchinson",
         full_name: "Atiba Hutchinson",
         active: true,
       },
       {
-        code: "102041",
+        code: "CA11",
         type: types[3],
         name: "Jonathan David",
         full_name: "Jonathan Christian David",
         active: true,
       },
       {
-        code: "102042",
+        code: "CA12",
         type: types[3],
         name: "Cyle Larin",
         full_name: "Cyle Christopher Larin",

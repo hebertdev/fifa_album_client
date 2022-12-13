@@ -33,6 +33,9 @@ import PhotoLibraryOutlinedIcon from "@mui/icons-material/PhotoLibraryOutlined";
 import NavigateBeforeOutlinedIcon from "@mui/icons-material/NavigateBeforeOutlined";
 
 import none_player from "assets/none_player.jpg";
+import normal from "assets/normal-anonimous.webp";
+import legendario from "assets/legendario-anonimous.webp";
+import mitico from "assets/mitico-anonimous.webp";
 
 export function CardCromo({ cromo, user_cromos }) {
   const [open, setOpen] = useState(false);
@@ -72,22 +75,64 @@ export function CardCromo({ cromo, user_cromos }) {
   return (
     <>
       <CardActionArea sx={{ position: "relative" }} onClick={handleClickOpen}>
-        <picture>
-          <img
-            src={
-              pickedCromo
-                ? pickedCromo.sticker_variant.picture
-                : none_player.src
-            }
-            alt="messi"
-            style={{
-              width: "100%",
-              boxShadow: "5px 5px 4px 2px rgba(0,0,0,0.3)",
-              WebkitBoxShadow: "5px 5px 4px 2px rgba(0,0,0,0.3)",
-              MozBoxShadow: "5px 5px 4px 2px rgba(0,0,0,0.3)",
-            }}
-          />
-        </picture>
+        <Box
+          sx={{
+            position: "relative",
+          }}
+        >
+          <picture>
+            <img
+              src={
+                pickedCromo
+                  ? pickedCromo.sticker_variant.picture
+                    ? pickedCromo.sticker_variant.picture
+                    : pickedCromo.sticker_variant.variant === "Common"
+                    ? normal.src
+                    : pickedCromo.sticker_variant.variant === "Legendary"
+                    ? legendario.src
+                    : pickedCromo.sticker_variant.variant === "Mithical"
+                    ? mitico.src
+                    : none_player.src
+                  : none_player.src
+              }
+              alt={cromo.name}
+              style={{
+                width: "100%",
+                boxShadow: "5px 5px 4px 2px rgba(0,0,0,0.3)",
+                WebkitBoxShadow: "5px 5px 4px 2px rgba(0,0,0,0.3)",
+                MozBoxShadow: "5px 5px 4px 2px rgba(0,0,0,0.3)",
+              }}
+            />
+          </picture>
+          {pickedCromo && (
+            <>
+              {!pickedCromo.sticker_variant.picture && (
+                <Box
+                  sx={{
+                    position: "absolute",
+                    bottom: "0",
+                    backgroundColor: "rgba(0,0,0,0.8)",
+                    width: "100%",
+                    textAlign: "center",
+                    minHeight: "40px",
+                    maxHeight: "80px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: "0.7rem",
+                    }}
+                  >
+                    {cromo.name}
+                  </Typography>
+                </Box>
+              )}
+            </>
+          )}
+        </Box>
         {!pickedCromo && (
           <Box
             sx={{
@@ -167,7 +212,18 @@ export function CardCromo({ cromo, user_cromos }) {
                   <DialogContent>
                     <picture>
                       <img
-                        src={pickedCromo.sticker_variant.picture}
+                        src={
+                          pickedCromo.sticker_variant.picture
+                            ? pickedCromo.sticker_variant.picture
+                            : pickedCromo.sticker_variant.variant === "Common"
+                            ? normal.src
+                            : pickedCromo.sticker_variant.variant ===
+                              "Legendary"
+                            ? legendario.src
+                            : pickedCromo.sticker_variant.variant === "Mithical"
+                            ? mitico.src
+                            : none_player.src
+                        }
                         alt="picture"
                         style={{ width: "100%" }}
                       />
@@ -215,12 +271,9 @@ export function CardCromo({ cromo, user_cromos }) {
 
 function Gallery({ cromos, pickedCromo, setPickedCromo, setGallery }) {
   const [value, setValue] = useState(null);
-
   const { user } = useContext(UserContext);
   const { alertSms } = useContext(AlertContext);
-
   const queryClient = useQueryClient();
-
   const {
     mutate: handlePickedSticker,
     error,
@@ -297,8 +350,16 @@ function Gallery({ cromos, pickedCromo, setPickedCromo, setGallery }) {
                   <Grid item xs={4} key={index}>
                     <picture>
                       <img
-                        src={cromo.sticker_variant.picture}
-                        alt="messi"
+                        src={
+                          cromo.sticker_variant.picture
+                            ? cromo.sticker_variant.picture
+                            : cromo.sticker_variant.variant === "Common"
+                            ? normal.src
+                            : cromo.sticker_variant.variant === "Legendary"
+                            ? legendario.src
+                            : mitico.src
+                        }
+                        alt={cromo.sticker_variant.sticker.name}
                         style={{
                           width: "100%",
                           cursor: "pointer",
@@ -316,7 +377,7 @@ function Gallery({ cromos, pickedCromo, setPickedCromo, setGallery }) {
                           <Typography variant="caption">
                             {cromo.sticker_variant.sticker.name}
                             <br />
-                            {cromo.sticker_variant.variant}
+                            <small>{cromo.sticker_variant.variant}</small>
                           </Typography>
                         }
                       />

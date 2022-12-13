@@ -34,16 +34,17 @@ export function SearchFriend({ alertSms }) {
   const [openModalSearch, setOpenModalSearch] = useState(false);
   const [prevSearch, setPrevSearch] = useState("");
   const [accounts, setAccounts] = useState(null);
-  const [notes, setNotes] = useState(null);
 
   let inputSearchRef1 = useRef(null);
   let inputSearchRef = useRef(null);
 
   useEffect(() => {
-    router.events.on("routeChangeStart", async () => {
-      handleCloseModalSearch();
-    });
-  }, [router]);
+    if (openModalSearch) {
+      router.events.on("routeChangeStart", async () => {
+        handleCloseModalSearch();
+      });
+    }
+  }, [router, openModalSearch]);
 
   const handleChangeInput = (e) => {
     setSearch(e.target.value);

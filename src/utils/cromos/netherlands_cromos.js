@@ -7,7 +7,7 @@ const types = {
 export const netherlands = {
   name: "netherlands",
   logo: {
-    code: "102030",
+    code: "NL00",
     type: types[1],
     name: "Netherlands Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const netherlands = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "NL01",
         type: types[2],
         name: "Louis van Gaal",
         full_name: "Aloysius Paulus van Gaal",
         active: true,
       },
       {
-        code: "102032",
+        code: "NL02",
         type: types[3],
         name: "Justin Bijlow",
         full_name: "Justin Bijlow",
         active: true,
       },
       {
-        code: "102033",
+        code: "NL03",
         type: types[3],
         name: "Daley Blind",
         full_name: "Daley Blind",
         active: true,
       },
       {
-        code: "102034",
+        code: "NL04",
         type: types[3],
         name: "Matthijs de Ligt",
         full_name: "Matthijs de Ligt",
         active: true,
       },
       {
-        code: "102035",
+        code: "NL05",
         type: types[3],
         name: "Stefan de Vrij",
         full_name: "Stefan de Vrij",
         active: true,
       },
       {
-        code: "102036",
+        code: "NL06",
         type: types[3],
         name: "Denzel Dumfries",
         full_name: "Denzel Justus Morris Dumfries ",
@@ -60,42 +60,42 @@ export const netherlands = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "NL07",
         type: types[3],
         name: "Virgil van Dijk",
         full_name: "Virgil van Dijk",
         active: true,
       },
       {
-        code: "102038",
+        code: "NL08",
         type: types[3],
         name: "Frenkie de Jong",
         full_name: "Frenkie de Jong",
         active: true,
       },
       {
-        code: "102039",
+        code: "NL09",
         type: types[3],
         name: "Davy Klaassen",
         full_name: "Davy Klaassen",
         active: true,
       },
       {
-        code: "102040",
+        code: "NL10",
         type: types[3],
         name: "Georginio Wijnaldum",
         full_name: "Georginio Gregion Emile Wijnaldum​",
         active: true,
       },
       {
-        code: "102041",
+        code: "NL11",
         type: types[3],
         name: "Steven Bergwijn",
         full_name: "Steven Charles Bergwijn",
         active: true,
       },
       {
-        code: "102042",
+        code: "NL12",
         type: types[3],
         name: "Memphis Depay",
         full_name: "Memphis Depay",

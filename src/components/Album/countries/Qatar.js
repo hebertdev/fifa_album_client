@@ -10,8 +10,8 @@ import { SheetLeft, SheetRight } from "../Sheets";
 import { qatar as qatar_cromos } from "utils/cromos/qatar_cromos";
 
 //assets
-import qatar_fondo_right from "assets/album/qatar_right.png";
-import qatar_fondo_left from "assets/album/qatar_left.png";
+import qatar_fondo_right from "assets/album/qatar-right.webp";
+import qatar_fondo_left from "assets/album/qatar-left.webp";
 import qatar_flag from "assets/album/countries/QAT.png";
 
 export const QatarLeft = forwardRef((props, ref) => {
@@ -22,6 +22,7 @@ export const QatarLeft = forwardRef((props, ref) => {
         default_cromos={qatar_cromos}
         country_name={"qatar"}
         flag={qatar_flag.src}
+        color={"#90213a"}
         wallpaper={qatar_fondo_right.src}
         team_name={"Asociación de Fútbol de Catar"}
         user_cromos={props.user_cromos}
@@ -47,6 +48,7 @@ export const QatarRight = forwardRef((props, ref) => {
         default_cromos={qatar_cromos}
         group={group}
         country_name={"qatar"}
+        color={"#90213a"}
         wallpaper={qatar_fondo_left.src}
         user_cromos={props.user_cromos}
       />

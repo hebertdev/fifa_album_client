@@ -7,7 +7,7 @@ const types = {
 export const croacia = {
   name: "croacia",
   logo: {
-    code: "102030",
+    code: "HR00",
     type: types[1],
     name: "Croacia Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const croacia = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "HR01",
         type: types[2],
         name: "Zlatko Dalić",
         full_name: "HZlatko Dalić",
         active: true,
       },
       {
-        code: "102032",
+        code: "HR02",
         type: types[3],
         name: "Dominik Livaković",
         full_name: "Dominik Livaković",
         active: true,
       },
       {
-        code: "102033",
+        code: "HR03",
         type: types[3],
         name: "Joško Gvardiol",
         full_name: "Joško Gvardiol",
         active: true,
       },
       {
-        code: "102034",
+        code: "HR04",
         type: types[3],
         name: "Josip Juranović",
         full_name: "Josip Juranović",
         active: true,
       },
       {
-        code: "102035",
+        code: "HR05",
         type: types[3],
         name: "Dejan Lovren",
         full_name: "Dejan Lovren",
         active: true,
       },
       {
-        code: "102036",
+        code: "HR06",
         type: types[3],
         name: "Borna Sosa",
         full_name: "Borna Sosa",
@@ -60,42 +60,42 @@ export const croacia = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "HR07",
         type: types[3],
         name: "Marcelo Brozović",
         full_name: "Marcelo Brozović",
         active: true,
       },
       {
-        code: "102038",
+        code: "HR08",
         type: types[3],
         name: "Mateo Kovačić",
         full_name: "Mateo Kovačić",
         active: true,
       },
       {
-        code: "102039",
+        code: "HR09",
         type: types[3],
         name: "Luka Modrić",
         full_name: "Luka Modrić",
         active: true,
       },
       {
-        code: "102040",
+        code: "HR10",
         type: types[3],
         name: "Ivan Perišić",
         full_name: "Ivan Perišić",
         active: true,
       },
       {
-        code: "102041",
+        code: "HR11",
         type: types[3],
         name: "Nikola Vlašić",
         full_name: "Nikola Vlašić",
         active: true,
       },
       {
-        code: "102042",
+        code: "HR12",
         type: types[3],
         name: "Andrej Kramarić",
         full_name: "Andrej Kramarić",

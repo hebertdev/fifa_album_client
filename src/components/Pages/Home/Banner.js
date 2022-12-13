@@ -72,7 +72,7 @@ export function Banner() {
                   fontFamily: "QatarHeavy",
                 }}
               >
-                ¡Distruta del Mundial!
+                ¡Disfruta del Mundial!
               </Typography>
               <Typography
                 variant="h1"

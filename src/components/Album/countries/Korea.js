@@ -11,8 +11,8 @@ import { SheetLeft, SheetRight } from "../Sheets";
 import { Box, Grid, CardActionArea, Dialog } from "@mui/material";
 
 //assets
-import korean_wallpaper_right from "assets/album/francia_right.png";
-import korean_wallpaper_left from "assets/album/francia_left.png";
+import korean_wallpaper_right from "assets/album/francia-right.webp";
+import korean_wallpaper_left from "assets/album/francia-left.webp";
 import korea_flag from "assets/album/countries/KOREA.png";
 
 export const KoreaLeft = forwardRef((props, ref) => {
@@ -20,10 +20,12 @@ export const KoreaLeft = forwardRef((props, ref) => {
     <div ref={ref}>
       <SheetLeft
         country_name={"La República de Corea"}
+        color="#173ea8"
         flag={korea_flag.src}
         wallpaper={korean_wallpaper_right.src}
         team_name={"Asociación de Fútbol de Corea del Sur"}
         default_cromos={korea_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );
@@ -45,8 +47,10 @@ export const KoreaRight = forwardRef((props, ref) => {
       <SheetRight
         group={group}
         country_name={"La República de Corea"}
+        color="#173ea8"
         wallpaper={korean_wallpaper_left.src}
         default_cromos={korea_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );

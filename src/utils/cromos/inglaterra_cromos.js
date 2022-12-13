@@ -7,7 +7,7 @@ const types = {
 export const inglaterra = {
   name: "inglaterra",
   logo: {
-    code: "102030",
+    code: "EN00",
     type: types[1],
     name: "Inglaterra Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const inglaterra = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "EN01",
         type: types[2],
         name: "Gareth Southgate",
         full_name: "Gareth Southgate",
         active: true,
       },
       {
-        code: "102032",
+        code: "EN02",
         type: types[3],
         name: "Jordan Pickford",
         full_name: "Jordan Lee Pickford",
         active: true,
       },
       {
-        code: "102033",
+        code: "EN03",
         type: types[3],
         name: "Harry Maguire",
         full_name: "Jacob Harry Maguire",
         active: true,
       },
       {
-        code: "102034",
+        code: "EN04",
         type: types[3],
         name: "Luke Shaw",
         full_name: "Luke Paul Hoare Shaw",
         active: true,
       },
       {
-        code: "102035",
+        code: "EN05",
         type: types[3],
         name: "John Stones",
         full_name: "John Stones",
         active: true,
       },
       {
-        code: "102036",
+        code: "EN06",
         type: types[3],
         name: "Kyle Walker",
         full_name: "Kyle Andrew Walker",
@@ -60,42 +60,42 @@ export const inglaterra = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "EN07",
         type: types[3],
         name: "Mason Mount",
         full_name: "Mason Tony Mount",
         active: true,
       },
       {
-        code: "102038",
+        code: "EN08",
         type: types[3],
         name: "Kalvin Phillips",
         full_name: "Kalvin Mark Phillips",
         active: true,
       },
       {
-        code: "102039",
+        code: "EN09",
         type: types[3],
         name: "Declan Rice",
         full_name: "Declan Rice",
         active: true,
       },
       {
-        code: "102040",
+        code: "EN10",
         type: types[3],
         name: "Phil Foden",
         full_name: "Philip Walter Foden",
         active: true,
       },
       {
-        code: "102041",
+        code: "EN11",
         type: types[3],
         name: "Harry Kane",
         full_name: "Harry Edward Kane",
         active: true,
       },
       {
-        code: "102042",
+        code: "EN12",
         type: types[3],
         name: "Raheem Sterling",
         full_name: "Raheem Shaquille Sterling",

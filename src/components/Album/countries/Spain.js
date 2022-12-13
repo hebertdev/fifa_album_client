@@ -11,8 +11,8 @@ import { SheetLeft, SheetRight } from "../Sheets";
 import { Box, Grid, CardActionArea, Dialog } from "@mui/material";
 
 //assets
-import spain_wallpaper_right from "assets/album/dinamarca_right.png";
-import spain_wallpaper_left from "assets/album/dinamarca_left.png";
+import spain_wallpaper_right from "assets/album/dinamarca-right.webp";
+import spain_wallpaper_left from "assets/album/dinamarca-left.webp";
 import spain_flag from "assets/album/countries/ESP.png";
 
 export const SpainLeft = forwardRef((props, ref) => {
@@ -20,10 +20,12 @@ export const SpainLeft = forwardRef((props, ref) => {
     <div ref={ref}>
       <SheetLeft
         country_name={"España"}
+        color="#a32b2e"
         flag={spain_flag.src}
         wallpaper={spain_wallpaper_right.src}
         team_name={"Real Federación Española de Fútbol"}
         default_cromos={spain_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );
@@ -45,8 +47,10 @@ export const SpainRight = forwardRef((props, ref) => {
       <SheetRight
         group={group}
         country_name={"España"}
+        color="#a32b2e"
         wallpaper={spain_wallpaper_left.src}
         default_cromos={spain_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );

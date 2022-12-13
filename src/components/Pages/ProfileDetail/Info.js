@@ -120,7 +120,7 @@ export function Info({
                 {profileDetail.total_friends === 1 ? "amigo" : "amigos"}
               </Typography>
               <Typography sx={{ fontSize: "15px", marginRight: "10px" }}>
-                <b>{profileDetail.percentage}%</b> álbum
+                <b>{profileDetail.percentage.toFixed(2)}%</b> álbum
               </Typography>
               <Typography sx={{ fontSize: "15px", marginRight: "10px" }}>
                 <b>{profileDetail.total_cromos}</b> cromos

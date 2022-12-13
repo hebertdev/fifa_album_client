@@ -7,7 +7,7 @@ const types = {
 export const portugal = {
   name: "portugal",
   logo: {
-    code: "102030",
+    code: "PT00",
     type: types[1],
     name: "Portugal Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const portugal = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "PT01",
         type: types[2],
         name: "Fernando Manuel Costa",
         full_name: "Fernando Manuel Costa Santos",
         active: true,
       },
       {
-        code: "102032",
+        code: "PT02",
         type: types[3],
         name: "Diogo Costa",
         full_name: "Diogo Costa",
         active: true,
       },
       {
-        code: "102033",
+        code: "PT03",
         type: types[3],
         name: "João Cancelo",
         full_name: "João Pedro Cavaco Cancelo",
         active: true,
       },
       {
-        code: "102034",
+        code: "PT04",
         type: types[3],
         name: "Pepe",
         full_name: "Képler Laverán Lima Ferreira",
         active: true,
       },
       {
-        code: "102035",
+        code: "PT05",
         type: types[3],
         name: "Raphaël Guerreiro",
         full_name: "Raphaël Adelino José Guerreiro",
         active: true,
       },
       {
-        code: "102036",
+        code: "PT06",
         type: types[3],
         name: "Rúben Dias",
         full_name: "Rúben Santos Gato Alves Dias",
@@ -60,42 +60,42 @@ export const portugal = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "PT07",
         type: types[3],
         name: "Bernardo Silva",
         full_name: "Bernardo Mota Veiga de Carvalho e Silva",
         active: true,
       },
       {
-        code: "102038",
+        code: "PT08",
         type: types[3],
         name: "Bruno Fernandes",
         full_name: "Bruno Miguel Borges Fernandes",
         active: true,
       },
       {
-        code: "102039",
+        code: "PT09",
         type: types[3],
         name: "Danilo Pereira",
         full_name: "Danilo Luís Hélio Pereira",
         active: true,
       },
       {
-        code: "102040",
+        code: "PT10",
         type: types[3],
         name: "João Moutinho",
         full_name: "João Filipe Iría Santos Moutinho",
         active: true,
       },
       {
-        code: "102041",
+        code: "PT11",
         type: types[3],
         name: "Cristiano Ronaldo",
         full_name: "Cristiano Ronaldo dos Santos Aveiro",
         active: true,
       },
       {
-        code: "102042",
+        code: "PT12",
         type: types[3],
         name: "Diogo Jota",
         full_name: "Diogo José Teixeira da Silva",

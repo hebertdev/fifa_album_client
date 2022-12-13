@@ -7,7 +7,7 @@ const types = {
 export const uruguay = {
   name: "uruguay",
   logo: {
-    code: "102030",
+    code: "UY00",
     type: types[1],
     name: "Uruguay Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const uruguay = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "UY01",
         type: types[2],
         name: "Diego Alonso",
         full_name: "Diego Martín Alonso López",
         active: true,
       },
       {
-        code: "102032",
+        code: "UY02",
         type: types[3],
         name: "Fernando Muslera",
         full_name: "Néstor Fernando Muslera Micol",
         active: true,
       },
       {
-        code: "102033",
+        code: "UY03",
         type: types[3],
         name: "Ronald Araújo",
         full_name: "Ronald Federico Araújo da Silva",
         active: true,
       },
       {
-        code: "102034",
+        code: "UY04",
         type: types[3],
         name: "José María Giménez",
         full_name: "José María Giménez de Vargas",
         active: true,
       },
       {
-        code: "102035",
+        code: "UY05",
         type: types[3],
         name: "Diego Godín",
         full_name: "Diego Roberto Godín Leal",
         active: true,
       },
       {
-        code: "102036",
+        code: "UY06",
         type: types[3],
         name: "Mathías Olivera",
         full_name: "Mathías Olivera Miramontes",
@@ -60,42 +60,42 @@ export const uruguay = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "UY07",
         type: types[3],
         name: "Rodrigo Bentancur",
         full_name: "Rodrigo Bentancur Colmán",
         active: true,
       },
       {
-        code: "102038",
+        code: "UY08",
         type: types[3],
         name: "Giorgian De Arrascaeta",
         full_name: "Giorgian Daniel de Arrascaeta Benedetti",
         active: true,
       },
       {
-        code: "102039",
+        code: "UY09",
         type: types[3],
         name: "Nicolás de la Cruz",
         full_name: "Diego Nicolás de la Cruz Arcosa",
         active: true,
       },
       {
-        code: "102040",
+        code: "UY10",
         type: types[3],
         name: "Federico Valverde",
         full_name: "Federico Santiago Valverde Dipetta",
         active: true,
       },
       {
-        code: "102041",
+        code: "UY11",
         type: types[3],
         name: "Edinson Cavani",
         full_name: "Edinson Roberto Cavani Gómez",
         active: true,
       },
       {
-        code: "102042",
+        code: "UY12",
         type: types[3],
         name: "Luis Suárez",
         full_name: "Luis Alberto Suárez Díaz",

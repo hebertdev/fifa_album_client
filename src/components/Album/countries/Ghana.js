@@ -11,8 +11,8 @@ import { SheetLeft, SheetRight } from "../Sheets";
 import { Box, Grid, CardActionArea, Dialog } from "@mui/material";
 
 //assets
-import ghana_wallpaper_right from "assets/album/inglaterra_right.png";
-import ghana_wallpaper_left from "assets/album/inglaterra_left.png";
+import ghana_wallpaper_right from "assets/album/inglaterra-right.webp";
+import ghana_wallpaper_left from "assets/album/inglaterra-left.webp";
 import ghana_flag from "assets/album/countries/GHA.png";
 
 export const GhanaLeft = forwardRef((props, ref) => {
@@ -20,10 +20,12 @@ export const GhanaLeft = forwardRef((props, ref) => {
     <div ref={ref}>
       <SheetLeft
         country_name={"ghana"}
+        color="#e0dedc"
         flag={ghana_flag.src}
         wallpaper={ghana_wallpaper_right.src}
         team_name={"Asociación de Fútbol de Ghana"}
         default_cromos={ghana_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );
@@ -45,8 +47,10 @@ export const GhanaRight = forwardRef((props, ref) => {
       <SheetRight
         group={group}
         country_name={"ghana"}
+        color="#e0dedc"
         wallpaper={ghana_wallpaper_left.src}
         default_cromos={ghana_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );

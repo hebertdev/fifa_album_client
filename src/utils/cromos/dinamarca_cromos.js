@@ -7,7 +7,7 @@ const types = {
 export const dinamarca = {
   name: "denmark",
   logo: {
-    code: "102030",
+    code: "DK00",
     type: types[1],
     name: "Denmark Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const dinamarca = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "DK01",
         type: types[2],
         name: "Kasper Hjulmand",
         full_name: "Kasper Hjulmand",
         active: true,
       },
       {
-        code: "102032",
+        code: "DK02",
         type: types[3],
         name: "Kasper Schmeichel",
         full_name: "Kasper Peter Schmeichel",
         active: true,
       },
       {
-        code: "102033",
+        code: "DK03",
         type: types[3],
         name: "Andreas Christensen",
         full_name: "Andreas Bødtker Christensen",
         active: true,
       },
       {
-        code: "102034",
+        code: "DK04",
         type: types[3],
         name: "Simon Kjær",
         full_name: "Simon Thorup Kjær",
         active: true,
       },
       {
-        code: "102035",
+        code: "DK05",
         type: types[3],
         name: "Joakim Mæhle",
         full_name: "Joakim Mæhle Pedersen",
         active: true,
       },
       {
-        code: "102036",
+        code: "DK06",
         type: types[3],
         name: "Jannik Vestergaard",
         full_name: "Jannik Vestergaard",
@@ -60,42 +60,42 @@ export const dinamarca = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "DK07",
         type: types[3],
         name: "Thomas Delaney",
         full_name: "Thomas Joseph Delaney Hansen",
         active: true,
       },
       {
-        code: "102038",
+        code: "DK08",
         type: types[3],
         name: "Christian Eriksen",
         full_name: "Christian Dannemann Eriksen",
         active: true,
       },
       {
-        code: "102039",
+        code: "DK09",
         type: types[3],
         name: "Pierre Emile Højbjerg",
         full_name: "Pierre-Emile Kordt Højbjerg",
         active: true,
       },
       {
-        code: "102040",
+        code: "DK10",
         type: types[3],
         name: "Daniel Wass",
         full_name: "Daniel Wass",
         active: true,
       },
       {
-        code: "102041",
+        code: "DK11",
         type: types[3],
         name: "Martin Braithwaite",
         full_name: "Martin Christensen Braithwaite",
         active: true,
       },
       {
-        code: "102042",
+        code: "DK12",
         type: types[3],
         name: "Yussuf Poulsen",
         full_name: "Yussuf Yurary Poulsen",

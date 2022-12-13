@@ -7,7 +7,7 @@ const types = {
 export const suiza = {
   name: "suiza",
   logo: {
-    code: "102030",
+    code: "CH00",
     type: types[1],
     name: "Suiza Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const suiza = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "CH01",
         type: types[2],
         name: "Murat Yakin",
         full_name: "Murat Yakin",
         active: true,
       },
       {
-        code: "102032",
+        code: "CH02",
         type: types[3],
         name: "Yann Sommer",
         full_name: "Yann Sommer",
         active: true,
       },
       {
-        code: "102033",
+        code: "CH03",
         type: types[3],
         name: "Manuel Akanji",
         full_name: "Manuel Obafemi Akanji",
         active: true,
       },
       {
-        code: "102034",
+        code: "CH04",
         type: types[3],
         name: "Nico Elvedi",
         full_name: "Nico Elvedi",
         active: true,
       },
       {
-        code: "102035",
+        code: "CH05",
         type: types[3],
         name: "Ricardo Rodríguez",
         full_name: "Ricardo Iván Rodríguez Araya",
         active: true,
       },
       {
-        code: "102036",
+        code: "CH06",
         type: types[3],
         name: "Silvan Widmer",
         full_name: "Silvan Dominic Widmer",
@@ -60,42 +60,42 @@ export const suiza = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "CH07",
         type: types[3],
         name: "Remo Freuler",
         full_name: "Remo Freuler",
         active: true,
       },
       {
-        code: "102038",
+        code: "CH08",
         type: types[3],
         name: "Xherdan Shaqiri",
         full_name: "Xherdan Shaqiri",
         active: true,
       },
       {
-        code: "102039",
+        code: "CH09",
         type: types[3],
         name: "Granit Xhaka",
         full_name: "Granit Xhaka",
         active: true,
       },
       {
-        code: "102040",
+        code: "CH10",
         type: types[3],
         name: "Denis Zakaria",
         full_name: "Denis Zakaria",
         active: true,
       },
       {
-        code: "102041",
+        code: "CH11",
         type: types[3],
         name: "Breel Embolo",
         full_name: "Breel Donald Embolo",
         active: true,
       },
       {
-        code: "102042",
+        code: "CH12",
         type: types[3],
         name: "Haris Seferović",
         full_name: "Haris Seferović",

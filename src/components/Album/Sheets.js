@@ -21,6 +21,7 @@ export function SheetLeft({
   team_name,
   default_cromos,
   user_cromos,
+  color,
 }) {
   return (
     <>
@@ -29,6 +30,7 @@ export function SheetLeft({
           background: "blue",
           width: "100%",
           height: "100%",
+          backgroundColor: color,
           background: `url(${wallpaper})`,
           backgroundSize: "cover",
           backgroundPosition: "right",
@@ -114,6 +116,7 @@ export function SheetRight({
   group,
   default_cromos,
   user_cromos,
+  color,
 }) {
   return (
     <>
@@ -122,6 +125,7 @@ export function SheetRight({
           background: "blue",
           width: "100%",
           height: "100%",
+          backgroundColor: color,
           background: `url(${wallpaper})`,
           backgroundSize: "cover",
           backgroundPosition: "left",

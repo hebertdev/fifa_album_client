@@ -7,7 +7,7 @@ const types = {
 export const arabia_saudita = {
   name: "saudi arabi",
   logo: {
-    code: "102030",
+    code: "SA00",
     type: types[1],
     name: "Saudi arabi Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const arabia_saudita = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "SA01",
         type: types[2],
         name: "Hervé Renard",
         full_name: "Hervé Renard",
         active: true,
       },
       {
-        code: "102032",
+        code: "SA02",
         type: types[3],
         name: "Mohammed Al-Owais",
         full_name: "Mohammed Al-Owais",
         active: true,
       },
       {
-        code: "102033",
+        code: "SA03",
         type: types[3],
         name: "Abdulelah Al-Amri",
         full_name: "Abdulelah Al-Amri",
         active: true,
       },
       {
-        code: "102034",
+        code: "SA04",
         type: types[3],
         name: "Sultan Al-Ghanam",
         full_name: "Sultan Al-Ghanam",
         active: true,
       },
       {
-        code: "102035",
+        code: "SA05",
         type: types[3],
         name: "Yasir Al-Shahrani",
         full_name: "Yasir Al-Shahrani",
         active: true,
       },
       {
-        code: "102036",
+        code: "SA06",
         type: types[3],
         name: "Hassan Al-Tombakti",
         full_name: "Hassan Al-Tombakti",
@@ -60,42 +60,42 @@ export const arabia_saudita = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "SA07",
         type: types[3],
         name: "Abdullah Madu",
         full_name: "Abdullah Madu",
         active: true,
       },
       {
-        code: "102038",
+        code: "SA08",
         type: types[3],
         name: "Salman Al-Faraj",
         full_name: "Salman Mohammed Al-Faraj",
         active: true,
       },
       {
-        code: "102039",
+        code: "SA09",
         type: types[3],
         name: "Abdulellah Al-Malki",
         full_name: "Abdulellah Al-Malki",
         active: true,
       },
       {
-        code: "102040",
+        code: "SA10",
         type: types[3],
         name: "Mohamed Kanno",
         full_name: "Mohamed Kanno",
         active: true,
       },
       {
-        code: "102041",
+        code: "SA11",
         type: types[3],
         name: "Salem Al-Dawsari",
         full_name: "Salem Muhamed Al-Dawsari",
         active: true,
       },
       {
-        code: "102042",
+        code: "SA12",
         type: types[3],
         name: "Khalid Al-Ghannam",
         full_name: "Khalid Al-Ghannam",

@@ -7,7 +7,7 @@ const types = {
 export const brasil = {
   name: "brasil",
   logo: {
-    code: "102030",
+    code: "BR00",
     type: types[1],
     name: "Brasil Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const brasil = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "BR01",
         type: types[2],
         name: "Tite",
         full_name: "Adenor Leonardo Bacchi",
         active: true,
       },
       {
-        code: "102032",
+        code: "BR02",
         type: types[3],
         name: "Alisson Becker",
         full_name: "Alisson Ramses Becker",
         active: true,
       },
       {
-        code: "102033",
+        code: "BR03",
         type: types[3],
         name: "Alex Sandro",
         full_name: "Alex Sandro Lobo Silva",
         active: true,
       },
       {
-        code: "102034",
+        code: "BR04",
         type: types[3],
         name: "Danilo da Silva",
         full_name: "Danilo Luiz da Silva",
         active: true,
       },
       {
-        code: "102035",
+        code: "BR05",
         type: types[3],
         name: "Marquinhos",
         full_name: "Marcos Aoás Corrêa",
         active: true,
       },
       {
-        code: "102036",
+        code: "BR06",
         type: types[3],
         name: "Thiago Silva",
         full_name: "Thiago Emiliano da Silva",
@@ -60,42 +60,42 @@ export const brasil = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "BR07",
         type: types[3],
         name: "Casemiro",
         full_name: "Carlos Henrique Casimiro",
         active: true,
       },
       {
-        code: "102038",
+        code: "BR08",
         type: types[3],
         name: "Fred",
         full_name: "Frederico Rodrigues Santos",
         active: true,
       },
       {
-        code: "102039",
+        code: "BR09",
         type: types[3],
         name: "Lucas Paquetá",
         full_name: "Lucas Tolentino Coelho de Lima",
         active: true,
       },
       {
-        code: "102040",
+        code: "BR10",
         type: types[3],
         name: "Gabriel Jesus",
         full_name: "Gabriel Fernando de Jesus",
         active: true,
       },
       {
-        code: "102041",
+        code: "BR11",
         type: types[3],
         name: "Neymar Jr",
         full_name: "Neymar da Silva Santos Júnior",
         active: true,
       },
       {
-        code: "102042",
+        code: "BR12",
         type: types[3],
         name: "Vinícius Jr",
         full_name: "Vinícius José Paixaõ de Oliveira Junior",

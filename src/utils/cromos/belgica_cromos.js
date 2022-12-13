@@ -7,7 +7,7 @@ const types = {
 export const belgica = {
   name: "bélgica",
   logo: {
-    code: "102030",
+    code: "BE00",
     type: types[1],
     name: "Bélgica Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const belgica = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "BE01",
         type: types[2],
         name: "Roberto Martínez",
         full_name: "Roberto Martínez Montoliu",
         active: true,
       },
       {
-        code: "102032",
+        code: "BE02",
         type: types[3],
         name: "Thibaut Courtois",
         full_name: "Thibaut Nicolas Marc Courtois",
         active: true,
       },
       {
-        code: "102033",
+        code: "BE03",
         type: types[3],
         name: "Toby Alderweireld",
         full_name: "Toby Albertine Alderweireld",
         active: true,
       },
       {
-        code: "102034",
+        code: "BE04",
         type: types[3],
         name: "Jason Denayer",
         full_name: "Jason Grégory Marianne Denayer",
         active: true,
       },
       {
-        code: "102035",
+        code: "BE05",
         type: types[3],
         name: "Thomas Meunier",
         full_name: "Thomas Meunier",
         active: true,
       },
       {
-        code: "102036",
+        code: "BE06",
         type: types[3],
         name: "Jan Vertonghen",
         full_name: "Jan Bert Vertonghen",
@@ -60,42 +60,42 @@ export const belgica = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "BE07",
         type: types[3],
         name: "Yannick Carrasco",
         full_name: "Yannick Ferreira Carrasco",
         active: true,
       },
       {
-        code: "102038",
+        code: "BE08",
         type: types[3],
         name: "Kevin De Bruyne",
         full_name: "Kevin De Bruyne",
         active: true,
       },
       {
-        code: "102039",
+        code: "BE09",
         type: types[3],
         name: "Youri Tielemans",
         full_name: "Youri Marion A. Tielemans",
         active: true,
       },
       {
-        code: "102040",
+        code: "BE10",
         type: types[3],
         name: "Axel Witsel",
         full_name: "Axel Laurent Witsel",
         active: true,
       },
       {
-        code: "102041",
+        code: "BE11",
         type: types[3],
         name: "Eden Hazard",
         full_name: "Eden Hazard",
         active: true,
       },
       {
-        code: "102042",
+        code: "BE12",
         type: types[3],
         name: "Romelu Lukaku",
         full_name: "Romelu Lukaku",

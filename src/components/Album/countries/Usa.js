@@ -13,8 +13,8 @@ import { usa as usa_cromos } from "utils/cromos/usa_cromos";
 import { Box, Grid, CardActionArea, Dialog } from "@mui/material";
 
 //assets
-import usa_wallpaper_right from "assets/album/inglaterra_right.png";
-import usa_wallpaper_left from "assets/album/inglaterra_left.png";
+import usa_wallpaper_right from "assets/album/inglaterra-right.webp";
+import usa_wallpaper_left from "assets/album/inglaterra-left.webp";
 import usa_flag from "assets/album/countries/USA.png";
 
 export const UsaLeft = forwardRef((props, ref) => {
@@ -22,10 +22,12 @@ export const UsaLeft = forwardRef((props, ref) => {
     <div ref={ref}>
       <SheetLeft
         country_name={"Estados Unidos"}
+        color="#e0dedc"
         flag={usa_flag.src}
         wallpaper={usa_wallpaper_right.src}
         team_name={"Federación de Fútbol de los Estados Unidos"}
         default_cromos={usa_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );
@@ -47,8 +49,10 @@ export const UsaRight = forwardRef((props, ref) => {
       <SheetRight
         group={group}
         country_name={"Estados Unidos"}
+        color="#e0dedc"
         wallpaper={usa_wallpaper_left.src}
         default_cromos={usa_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );

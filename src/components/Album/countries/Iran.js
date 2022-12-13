@@ -13,8 +13,8 @@ import { iran as iran_cromos } from "utils/cromos/iran_cromos";
 import { Box, Grid, CardActionArea, Dialog } from "@mui/material";
 
 //assets
-import iran_wallpaper_right from "assets/album/iran_right.png";
-import iran_wallpaper_left from "assets/album/iran_left.png";
+import iran_wallpaper_right from "assets/album/iran-right.webp";
+import iran_wallpaper_left from "assets/album/iran-left.webp";
 import qatar_flag from "assets/album/countries/IRN.png";
 
 export const IranLeft = forwardRef((props, ref) => {
@@ -22,10 +22,12 @@ export const IranLeft = forwardRef((props, ref) => {
     <div ref={ref}>
       <SheetLeft
         country_name={"Irán"}
+        color="#6bbb76"
         flag={qatar_flag.src}
         wallpaper={iran_wallpaper_right.src}
         team_name={"Federación de Fútbol de Irán"}
         default_cromos={iran_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );
@@ -47,8 +49,10 @@ export const IranRight = forwardRef((props, ref) => {
       <SheetRight
         group={group}
         country_name={"Irán"}
+        color="#6bbb76"
         wallpaper={iran_wallpaper_left.src}
         default_cromos={iran_cromos}
+        user_cromos={props.user_cromos}
       />
     </div>
   );

@@ -7,7 +7,7 @@ const types = {
 export const polonia = {
   name: "poland",
   logo: {
-    code: "102030",
+    code: "PL00",
     type: types[1],
     name: "Poland Emblem",
     active: true,
@@ -15,42 +15,42 @@ export const polonia = {
   sheetLeft: {
     cromos: [
       {
-        code: "102031",
+        code: "PL01",
         type: types[2],
         name: "Czesław Michniewicz",
         full_name: "Czesław Michniewicz",
         active: true,
       },
       {
-        code: "102032",
+        code: "PL02",
         type: types[3],
         name: "Wojciech Szczęsny",
         full_name: "Wojciech Tomasz Szczęsny",
         active: true,
       },
       {
-        code: "102033",
+        code: "PL03",
         type: types[3],
         name: "Jan Bednarek",
         full_name: "Jan Kacper Bednarek",
         active: true,
       },
       {
-        code: "102034",
+        code: "PL04",
         type: types[3],
         name: "Bartosz Bereszyński",
         full_name: "Bartosz Bereszyński",
         active: true,
       },
       {
-        code: "102035",
+        code: "PL05",
         type: types[3],
         name: "Matty Cash",
         full_name: "Matty Cash",
         active: true,
       },
       {
-        code: "102036",
+        code: "PL06",
         type: types[3],
         name: "Kamil Glik",
         full_name: "Kamil Jacek Glik",
@@ -60,42 +60,42 @@ export const polonia = {
   sheetRight: {
     cromos: [
       {
-        code: "102037",
+        code: "PL07",
         type: types[3],
         name: "Kamil Jóźwiak",
         full_name: "Kamil Jóźwiak",
         active: true,
       },
       {
-        code: "102038",
+        code: "PL08",
         type: types[3],
         name: "Grzegorz Krychowiak",
         full_name: "Grzegorz Krychowiak",
         active: true,
       },
       {
-        code: "102039",
+        code: "PL09",
         type: types[3],
         name: "Jakub Moder",
         full_name: "Jakub Moder",
         active: true,
       },
       {
-        code: "102040",
+        code: "PL10",
         type: types[3],
         name: "Piotr Zieliński",
         full_name: "Piotr Zieliński",
         active: true,
       },
       {
-        code: "102041",
+        code: "PL11",
         type: types[3],
         name: "Robert Lewandowski",
         full_name: "Robert Lewandowski",
         active: true,
       },
       {
-        code: "102042",
+        code: "PL12",
         type: types[3],
         name: "Arkadiusz Milik",
         full_name: "Arkadiusz Krystian Milik",
